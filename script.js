@@ -3,6 +3,8 @@ const ballContainer = document.querySelector('.ball-container');
 const answer = document.querySelector('#answer');
 const colorText = document.getElementById('rgb-color');
 const resetBtn = document.getElementById('reset-game');
+const placar = document.getElementById('score');
+let acertos = 0;
 
 function randomColors(qtd) {
   const paletaDeCores = [];
@@ -18,6 +20,11 @@ function randomColors(qtd) {
   colorText.innerHTML = paletaDeCores[Math.floor(Math.random() * 6)];
 }
 
+function resetAll() {
+  answer.innerText = 'Escolha uma cor';
+  randomColors(6);
+}
+
 function checkColor(evnt) {
   const e = evnt.target;
 
@@ -26,6 +33,8 @@ function checkColor(evnt) {
   }
   if (e.style.backgroundColor === colorText.innerText) {
     answer.innerText = 'Acertou!';
+    acertos += 3;
+    placar.innerText = `Placar: ${acertos}`;
   } else {
     answer.innerText = 'Errou! Tente novamente!';
   }
@@ -34,11 +43,6 @@ function checkColor(evnt) {
 window.onload = function initialize() {
   randomColors(balls.length);
 };
-
-function resetAll() {
-  answer.innerText = 'Escolha uma cor';
-  randomColors(6);
-}
 
 ballContainer.addEventListener('click', checkColor);
 resetBtn.addEventListener('click', resetAll);
