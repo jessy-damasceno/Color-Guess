@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap') ;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins , sans-serif;
+  margin-bottom: 24px;
+}
+
+body {
+  background-image: url('background.jpg');
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.ball-container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+}
+
+.ball {
+  border-radius: 50%;
+  border: 1.5px solid black;
+  width: 50px;
+  height: 50px;
+}
+
+h1 {
+  font-family: Butterfly Kids , cursive;
+  letter-spacing: 12px;
+  font-size: 60px;
+}
+
+header p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.buttons {
+  display: flex;
+  margin: auto;
+}
+
+#respostas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#respostas p {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
