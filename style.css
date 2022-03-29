@@ -61,3 +61,11 @@ header p {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+
+.fonte {
+  font-family: Butterfly Kids , cursive;
+  font-weight: 600;
+  letter-spacing: 10px;
+  padding-left: 8px;
+  color: rgb(33, 37, 41);
+}
