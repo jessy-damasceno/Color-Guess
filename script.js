@@ -55,7 +55,7 @@ function corLetra() {
   for (let i = 0; i < array.length; i += 1) {
     const span = document.createElement('span');
     span.innerText = array[i];
-    span.style.backgroundColor = cores[i];
+    span.style.color = cores[i];
     span.classList.add('fonte');
     title.appendChild(span);
   }
