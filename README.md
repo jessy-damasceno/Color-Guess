@@ -1,5 +1,7 @@
 # Boas vindas ao repositório do projeto de adivinhação de Cor!
 
+## Veja a aplicação em: https://color-guess-9g6793g84-jessy-damasceno.vercel.app/
+
 # Sumário
 
 - [Habilidades](#habilidades)
