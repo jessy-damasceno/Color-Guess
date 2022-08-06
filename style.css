@@ -71,3 +71,12 @@ header p {
   padding-left: 8px;
   color: rgb(33, 37, 41);
 }
+
+@media screen and ( max-width : 600px ) {
+
+  h1 {
+    font-size: 32px;
+    letter-spacing: 0;
+    margin-bottom: 12px;
+  }
+}
