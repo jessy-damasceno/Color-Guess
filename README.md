@@ -2,7 +2,7 @@
 
 <img src="./color-guess.png" alt="Color guess project" />
 
-## Veja a aplicação em: https://color-guess-9g6793g84-jessy-damasceno.vercel.app/
+### Veja a aplicação em: https://color-guess-chi.vercel.app/
 
 # Sumário
 
